@@ -95,7 +95,9 @@ height: 1px;
 }
   
 .cover-content .title, .subtitle, .post-content {
-  max-width: 720px;
+  max-wi
+
+dth: 720px;
   margin: auto;
 }
 
@@ -133,5 +135,3 @@ footer ul li a:hover {
     position: fixed;
   }
 }
-
-

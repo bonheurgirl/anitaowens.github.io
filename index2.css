@@ -3,16 +3,12 @@
 
 /*color name */
 h1 {
-	color: Darkblue;
+	color: #000000;
 	text-align:center;}
 h2 {
-	color: #dc143c;}
+	color: #708090;}
 p {
-	color: #0033CC}
+	color: #000000}
 	
-	
-body {
-  font-family: 'Oxygen', sans-serif;
-  font-size: 14px;
-  }
-	
+a {color: #000033;
+}
