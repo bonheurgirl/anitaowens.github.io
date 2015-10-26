@@ -1,0 +1,35 @@
+
+
+
+body {
+  background-color: #999999;
+}
+ 
+    
+h1 {
+    color: #663333;
+    text-align: center;
+    background-color: #FF0099;
+    text-transform: uppercase;
+}
+
+
+h2 {
+    color: #663366;
+    text-transform: uppercase;
+}
+
+section {
+    background-color: #009999;
+}
+
+a {color: #000033;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: #00CC66;
+}
+
+img {
+    display: none;
+}
