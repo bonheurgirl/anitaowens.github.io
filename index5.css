@@ -122,10 +122,12 @@ footer ul li {
 }
 footer ul li a {
     color: #fff;
+    
 }
 footer ul li a:hover {
 	color: #2D2D2D;
 	background-color: #fff;
+	font-size:150%;
 }
 
 @media screen and (max-width: 35em) {

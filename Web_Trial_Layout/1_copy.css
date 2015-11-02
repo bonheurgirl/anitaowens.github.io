@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:700,400|Cabin:400,700,700italic);
+
+body {
+  background-color: #212123;
+}
+
+div {
+  width: 90%;
+  margin: 100px auto;
+}
+
+p {
+  font-size: 150px;
+  font-family: 'Oxygen', sans-serif;
+  margin: 0;
+  line-height: 90%;
+}
+
+h1 {
+  font-size: 75px;
+  font-family: 'Cabin', sans-serif;
+  margin: 0;
+  line-height: 90%;
+}
+
+
+h2 {
+  font-size: 50px;
+  font-family: 'Cabin', sans-serif;
+  margin: 0;
+  line-height: 90%;
+}
+
+.blue {
+  color: #3095A7;
+}
+
+.green {
+  color: #59A381;
+}
+
+
+footer {
+  color: #ffffff;
+}
+
+.white {
+  color: #ffffff;
+}
