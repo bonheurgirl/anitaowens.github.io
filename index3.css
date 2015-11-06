@@ -75,8 +75,9 @@ body {
 	background: url("http://www.lifeofpix.com/wp-content/uploads/2015/06/Life-of-Pix-free-stock-photos-new-york-buildings-city-desiree.png") no-repeat #000 center;
 	background-size: cover;
 	background-attachment: fixed;
-  background-opacity: 0.5;
+  	background-opacity: 0.5;
 	height: 100vh;
+	background-color: #ffffff; /*alternate background-white*/
 }
 .top-panel-text {
 	padding-top: 20vh;
@@ -228,7 +229,7 @@ body {
 /* contact panel */
 .contact-wrapper {
 	width: 100%;
-	background-color: rgb(171, 211, 255);
+	background-color: rgb(171, 211, 255);/*light blue*/
 	text-align: center;
 	box-sizing: border-box;
 	padding: 100px 20px 50px 20px;
@@ -254,8 +255,8 @@ textarea:focus, .textinput:focus {
 	display: block;
 	margin: 10px auto;
 	border: 0;
-	background: #333333;
-	color: #fff;
+	background: #333333;/*very dark grey*/
+		color: #fff;
 	border-radius: 5px;
 	padding: 10px 20px;
 	transition: 200ms;
