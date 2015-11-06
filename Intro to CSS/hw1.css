@@ -5,7 +5,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10px;
-  padding-right: 5px;
+  padding-right: 25px;
   padding-bottom: 25px;
   padding-left: 25px;
 }
@@ -26,6 +26,7 @@ h1 {
     color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
+  padding: 1%;
 }
 
 
@@ -35,14 +36,13 @@ h2 {
 
 
 nav a {color: #000033;
-    background-image: inherit;
     text-align: center;
-    margin: -10px 15px 50px 50px;
+    margin: -10px 15px 40px 60px;
     padding:2% 3%;
     text-decoration: none;
     display:inline-block;
     border-radius: .3em;
-    background-color: rgba(255,255,255,.4);
+     background-color: rgba(255,255,255,.4);
     width: 12%;
   }
 
@@ -65,18 +65,60 @@ img {width: 70%;
 
 .left{width:25%;
   height:100%;
-  margin-left: 0%;
-  margin-top: 0%;
-  margin-right: 1%;
-  display:inline;
+  margin: 0 auto;
+  display: inline;
   float:left;
   background-color: #8B8000;/*olive*/
-  padding-bottom: 20%;
+  padding-bottom: 35%;
 }
 
-.right{margin-left: 3%;
+.right{margin-left: 5%;
   margin-top: 1%;
+  margin-right: 1%;
   display:inline;
+
 }
+
+table{
+ /* border-spacing: 2px 2px;*/
+  margin-left: 50px;
+  float:left;
+}
+
+
+th {padding: 20px 10px 20px 10px;
+}
+
+td {padding: 10px 10px 10px 10px;
+}
+
+th {background-color: #8B8000;/*olive*/
+  color: #ffffff;/*white*/
+  border-top: 1px solid #7CFC00;/*pea green*/
+  border-right: 1px solid #7CFC00;/*pea green*/
+  border-left: 1px solid #7CFC00;/*pea green*/
+  border-bottom: 3px solid #7CFC00; /*pea green*/
+  font-family: Verdana, Arial; font-size: 10pt;
+  font-weight: bold;
+  text-shadow: .5px 1px #7CFC00;
+}
+
+td {color: #2a2a2a; /*darker grey*/
+  font-family: Verdana, Arial; font-size: 12pt;
+  background-color: #c0d9af;/*lichen*/
+  opacity: 0.6;
+}
+
+.col2{text-align: center;
+}
+
+.col3{text-align: center;
+}
+
+/*rounds the edges of the headers in the table*/
+.edge {border-radius: .3em;}
+
+
+
 
 
