@@ -1,7 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:900);
 /* Typography and Type Color*/
-h1, h2, h4 {
+
+h1 {
 	font-family: 'Pacifico', cursive;
-	font-weight: 400;
+	font-weight: 500;
+	margin: 0;
+	color: #333333;
+}
+
+h2, h4 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
 	margin: 0;
 	color: #333333;
 }
@@ -16,19 +25,21 @@ body, p, a, li {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
-	color: #333333;
+	color: #333333;/*very dark gray*/ 
 }
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	transition: 300ms;
 }
 a:hover, a.light:hover, a:active, a.light:active {
-	color: rgb(252, 217, 153);
+	color: rgb(171, 211, 255);/*light blue*/
 }
 a.light {
 	color: #fff;
 	transition: 300ms;
 }
+
+
 h1 {
 	font-size: 150px;
 	line-height: 150px;
@@ -139,15 +150,16 @@ body {
   height: 100%;
 }
 .link-box.link.box-1 {
-  background: url("http://fc08.deviantart.net/fs70/i/2013/244/7/0/ram_skull_by_szorny_stock-d6kkdz6.jpg") no-repeat #000 center;
+  /*background: url("http://fc08.deviantart.net/fs70/i/2013/244/7/0/ram_skull_by_szorny_stock-d6kkdz6.jpg") no-repeat #000 center;*/
+  background-image: url("chart2.jpg") ;
   background-size: cover;
 }
 .link-box.link.box-2 {
-  background: url("http://fc08.deviantart.net/fs70/i/2013/244/7/0/ram_skull_by_szorny_stock-d6kkdz6.jpg") no-repeat #000 center;
+  
   background-size: cover;
 }
 .link-box.link.box-3 {
-  background: url("http://fc08.deviantart.net/fs70/i/2013/244/7/0/ram_skull_by_szorny_stock-d6kkdz6.jpg") no-repeat #000 center;
+ 
   background-size: cover;
 }
 .link-box.link {
@@ -293,4 +305,14 @@ textarea:focus, .textinput:focus {
 	font-weight: 300;
 	font-size: 16px;
 }
+
+.subtext{font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+	color: #333333;
+	text-shadow: 2px 2px #ffffff;
+	background-color: rgba(255,255,255,.4);
+	display:inline-block;
+    border-radius: 1em;
+	}
 
