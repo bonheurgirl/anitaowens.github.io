@@ -42,7 +42,7 @@ nav a {color: #000033;
     text-decoration: none;
     display:inline-block;
     border-radius: .3em;
-     background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.4);
     width: 12%;
   }
 
@@ -116,7 +116,8 @@ td {color: #2a2a2a; /*darker grey*/
 }
 
 /*rounds the edges of the headers in the table*/
-.edge {border-radius: .3em;}
+.edge {border-radius: .3em;
+}
 
 
 
