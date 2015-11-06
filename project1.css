@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:700,400|Cabin:400,700,700italic);
+
+
+ body {
+  margin:0;
+}
+
+/*-------- Typography ------*/
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 200;
+    color: #333333;/*very dark gray*/ 
+}
+
+.title {
+	font-size: 300%;
+	font-weight: 100;
+   text-align: left;
+}
+.subtitle {
+  font-size: 150%;
+}
+
+p {
+  text-align: left;
+}
+
+a {
+  color: #000;
+	text-decoration: underline;
+	outline: none;
+}
+
+a:hover {
+  color: #fff;
+	background-color: #A2A2A2;
+}
+
+/*-------- Elements style ------*/
+img {
+  width:100%;
+  max-width: 720px;
+}
+
+hr {
+background-color: #A2A2A2;/*light grey*/
+border: 0;
+height: 1px;
+}
+/* CSS Trick for responsive iframe (http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php) */
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56%; /* 16:9 */
+	padding-top: 10px;
+	height: 0;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*-------- Layout ------*/
+.cover {
+    color: #fff;
+    min-height:  20em;
+    /*background-color: #333333;/*very dark gray*/
+    background-color: rgb(171, 211, 255);/*light blue*/;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.cover .cover-content {
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+	}
+
+
+.cover-content, .post-content {
+    padding: 0 1.5em 0.5em 1.5em;
+}
+  
+.cover-content .title, .subtitle, .post-content {
+  max-width: 720px;
+  margin: auto;}
+
+
+
+footer {
+  color: #A2A2A2;
+  position: absolute;
+  right: 0em;
+  top: -1em;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0.5em;
+}
+
+footer ul li {
+  display: inline-block;
+  font-size: 70%;
+}
+footer ul li a {
+    color: #fff;
+    
+}
+footer ul li a:hover {
+  color: #2D2D2D;
+  background-color: #fff;
+  font-size:150%;
+}
+
+@media screen and (max-width: 35em) {
+  footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+  }
+}
