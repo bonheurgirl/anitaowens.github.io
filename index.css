@@ -318,3 +318,8 @@ textarea:focus, .textinput:focus {
     border-radius: 1em;
 	}
 
+/*removing bullets from ul list*/
+	.bullets{
+		list-style-type: none;
+	}
+
