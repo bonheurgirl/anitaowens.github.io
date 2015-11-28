@@ -153,16 +153,16 @@ body {
 }
 .link-box.link.box-1 {
   /*background: url("http://fc08.deviantart.net/fs70/i/2013/244/7/0/ram_skull_by_szorny_stock-d6kkdz6.jpg") no-repeat #000 center;*/
-  background-image: url("chart1.jpg");
+  background-image: url("statue_liberty.jpg");
   background-size: cover;
 }
 .link-box.link.box-2 {
-  
+  background-image: url("chart1.jpg");
   background-size: cover;
 }
 .link-box.link.box-3 {
- 
-  background-size: cover;
+ background-image: url("chart1.jpg");
+ background-size: cover;
 }
 .link-box.link {
   display: block;
