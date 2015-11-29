@@ -6,20 +6,20 @@ h1 {
 	font-family: 'Pacifico', cursive;
 	font-weight: 500;
 	margin: 0;
-	color: #333333;
+	color: #333333;/*very dark gray*/
 }
 
 h2, h4 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	margin: 0;
-	color: #333333;
+	color: #333333;/*very dark gray*/
 }
 h3 {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400;
 	margin: 0;
-	color: #333333;}
+	color: #333333;}/*very dark gray*/
 
 
 body, p, a, li {
@@ -68,7 +68,7 @@ h4 {
 
 /* Default Colors */
 body {
-	background-color: #f0f0f0;
+	background-color: #f0f0f0;/*very light gray*/
 	margin: 0;
 }
 
@@ -316,7 +316,7 @@ textarea:focus, .textinput:focus {
 	font-size: 40px;
 	color: #333333;
 	text-shadow: 2px 2px #ffffff;
-	background-color: rgba(255,255,255,.4);
+	background-color: rgba(255,255,255,.4);/*whute*/
 	display:inline-block;
     border-radius: 1em;
 	}
