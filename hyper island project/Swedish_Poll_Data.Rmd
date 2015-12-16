@@ -1,0 +1,26 @@
+---
+title: "https://github.com/MansMeg/SwedishPolls"
+output: html_document
+---
+
+```{r}
+setwd("/Users/anitaowens/Documents/datasciencecoursera")
+setwd("/Users/anitaowens/Documents/anitaowens.github.io")
+
+```
+
+Downloading swedish poll data into R
+```{r}
+
+install.packages("repmis")
+library(repmis)
+data_url <- "https://github.com/MansMeg/SwedishPolls/raw/master/Data/Polls.csv"
+polls <- repmis::source_data(data_url, sep = ",", header = TRUE)
+
+```
+Summary
+```{r}
+
+
+```
+
