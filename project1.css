@@ -66,8 +66,8 @@ height: 1px;
 .cover {
     color: #fff;
     min-height:  20em;
-    /*background-color: #333333;/*very dark gray*/
-    background-color: rgb(171, 211, 255);/*light blue*/;
+    background-color: #333333;/*very dark gray*/
+    /*background-color: rgb(171, 211, 255);/*light blue*/;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
