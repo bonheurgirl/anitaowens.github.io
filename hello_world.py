@@ -9,7 +9,7 @@ def mult2(x,y):
         x=1
     return x*y
 print mult2(100,99)
-"""
+
 
 str="<meta name= Distribution  content= Global  />"
 print len(str)
@@ -24,10 +24,19 @@ print len(str)
 
 str="  })();"
 print len(str)
-
-
-				
-				
+			
 				
 str="				<ul class= sidemenu >"
 print len(str)
+
+
+
+webbrowser.open('http://biostat.jhsph.edu/~jleek/contact.html')
+import requests
+requests.get('http://biostat.jhsph.edu/~jleek/contact.html')
+
+"""
+
+exampleFile = open('index.html')
+exampleSoup = bs4.BeautifulSoup(exampleFile)
+type(exampleSoup)
