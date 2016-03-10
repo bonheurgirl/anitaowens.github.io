@@ -29,14 +29,9 @@ print len(str)
 str="				<ul class= sidemenu >"
 print len(str)
 
-
-
-webbrowser.open('http://biostat.jhsph.edu/~jleek/contact.html')
-import requests
-requests.get('http://biostat.jhsph.edu/~jleek/contact.html')
-
 """
 
-exampleFile = open('index.html')
-exampleSoup = bs4.BeautifulSoup(exampleFile)
-type(exampleSoup)
+import webbrowser
+webbrowser.open('http://biostat.jhsph.edu/~jleek/contact.html')
+
+
