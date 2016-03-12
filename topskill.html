@@ -19,27 +19,24 @@
 
     // the table rows, typically loaded from data file using d3.csv
     var movies = [
-        { title: "Software Development Manager", year: 1972, length: 175, budget: 132000, rating: 90, female: 10 },
-        { title: "Software Architect", year: 1994, length: 142, budget: 128250, rating: 95, female: 5 },
-        { title: "Integrated Circuit Designer Engineer", year: 2003, length: 251, budget: 127500, rating: 85, female: 15},
-        { title: "Solutions Architect", year: 1974, length: 200, budget: 120000, rating: 90, female: 10 },
-        { title: "IT Manager", year: 1954, length: 206, budget: 120000, rating: 89, female: 11  },
-        { title: "Applications Development Manager", year: 1966, length: 180, budget: 120000, rating: 82, female: 18 },
-        { title: "Systems Architect", year: 1942, length: 102, budget: 116920, rating: 93, female: 7 },
-        { title: "Data Scientist", year: 2001, length: 208, budget: 115000, rating: 82, female: 18 },
-        { title: "Data Architect", year: 2002, length: 223, budget: 113000, rating: 82, female: 18 },
-        { title: "Information Systems Manager", year: 1994, length: 168, budget: 106000, rating: 77, female: 23 },
-        { title: "Analytics Manager", year: 1994, length: 168, budget: 106000, rating: 67, female: 33 }
+        { title: "Software Development Manager", year: 1972, length: 175, budget: 132000, rating: 9.1 },
+        { title: "Software Architect", year: 1994, length: 142, budget: 128250, rating: 9.1 },
+        { title: "Integrated Circuit Designer Engineer", year: 2003, length: 251, budget: 127500, rating: 9 },
+        { title: "Solutions Architect", year: 1974, length: 200, budget: 120000, rating: 8.9 },
+        { title: "IT Manager", year: 1954, length: 206, budget: 120000, rating: 8.9 },
+        { title: "Applications Development Manager", year: 1966, length: 180, budget: 120000, rating: 8.8 },
+        { title: "Systems Architect", year: 1942, length: 102, budget: 116920, rating: 8.8 },
+        { title: "Data Scientist", year: 2001, length: 208, budget: 115000, rating: 8.8 },
+        { title: "Data Architect", year: 2002, length: 223, budget: 113000, rating: 8.8 },
+        { title: "Information Systems Manager", year: 1994, length: 168, budget: 106000, rating: 8.8 },
+        { title: "Analytics Manager", year: 1994, length: 168, budget: 106000, rating: 8.8 }
     ];
 
     // column definitions
     var columns = [
         { head: 'Profession', cl: 'title', html: ƒ('title') },
-       
-        { head: 'Median Annual Salary', cl: 'num', html: ƒ('budget', d3.format('$,')) },
-        { head: '% Male', cl: 'num', html: ƒ('rating', d3.format('.1f')) },
-        { head: '% Female', cl: 'num', html: ƒ('female', d3.format('.1f')) },
-    
+        { head: 'Top Skill', cl: 'center', html: ƒ('length') },
+        { head: 'Median Annual Salary', cl: 'num', html: ƒ('budget', d3.format('$,')) }
        
     ];
 
@@ -81,7 +78,6 @@
     }
 
     </script>
-<p> Source: Glassdoor and Payscale</p>
-<a href="topskill.html">Top Skill Associated with Each Profession</a>
+<p> Source: Glassdoor</p>
 </body>
 </html>
