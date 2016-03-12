@@ -19,24 +19,24 @@
 
     // the table rows, typically loaded from data file using d3.csv
     var movies = [
-        { title: "Software Development Manager", year: 1972, length: 175, budget: 132000, rating: 9.1 },
-        { title: "Software Architect", year: 1994, length: 142, budget: 128250, rating: 9.1 },
-        { title: "Integrated Circuit Designer Engineer", year: 2003, length: 251, budget: 127500, rating: 9 },
-        { title: "Solutions Architect", year: 1974, length: 200, budget: 120000, rating: 8.9 },
-        { title: "IT Manager", year: 1954, length: 206, budget: 120000, rating: 8.9 },
-        { title: "Applications Development Manager", year: 1966, length: 180, budget: 120000, rating: 8.8 },
-        { title: "Systems Architect", year: 1942, length: 102, budget: 116920, rating: 8.8 },
-        { title: "Data Scientist", year: 2001, length: 208, budget: 115000, rating: 8.8 },
-        { title: "Data Architect", year: 2002, length: 223, budget: 113000, rating: 8.8 },
-        { title: "Information Systems Manager", year: 1994, length: 168, budget: 106000, rating: 8.8 },
-        { title: "Analytics Manager", year: 1994, length: 168, budget: 106000, rating: 8.8 }
+        { title: "Software Development Manager", year: 1972, length: "Java", budget: 132000, rating: 9.1 },
+        { title: "Software Architect", year: 1994, length: "C++", budget: 128250, rating: 9.1 },
+        { title: "Integrated Circuit Designer Engineer", year: 2003, length: "Cadence", budget: 127500, rating: 9 },
+        { title: "Solutions Architect", year: 1974, length: "Cloud Computing", budget: 120000, rating: 8.9 },
+        { title: "IT Manager", year: 1954, length: "Project Management", budget: 120000, rating: 8.9 },
+        { title: "Applications Development Manager", year: 1966, length: "People Management", budget: 120000, rating: 8.8 },
+        { title: "Systems Architect", year: 1942, length: "System Integration", budget: 116920, rating: 8.8 },
+        { title: "Data Scientist", year: 2001, length: "Machine Learning", budget: 115000, rating: 8.8 },
+        { title: "Data Architect", year: 2002, length: "Big Data Analytics", budget: 113000, rating: 8.8 },
+        { title: "Information Systems Manager", year: 1994, length: "Oracle", budget: 106000, rating: 8.8 },
+        { title: "Analytics Manager", year: 1994, length: "R", budget: 106000, rating: 8.8 }
     ];
 
     // column definitions
     var columns = [
         { head: 'Profession', cl: 'title', html: ƒ('title') },
         { head: 'Top Skill', cl: 'center', html: ƒ('length') },
-        { head: 'Median Annual Salary', cl: 'num', html: ƒ('budget', d3.format('$,')) }
+        { head: 'Median Annual Salary', cl: 'center', html: ƒ('budget', d3.format('$,')) }
        
     ];
 
@@ -78,6 +78,6 @@
     }
 
     </script>
-<p> Source: Glassdoor</p>
+<p> Source: Glassdoor and Payscale</p>
 </body>
 </html>
