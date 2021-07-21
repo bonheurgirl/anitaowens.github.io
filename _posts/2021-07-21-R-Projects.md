@@ -2,6 +2,7 @@
 layout: post
 title: R Projects
 cover: cover.jpg
+date:   2021-07-01 12:00:00
 categories: posts
 ---
 
