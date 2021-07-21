@@ -1,4 +1,4 @@
-
+---
 layout: post
 title: R Projects
 cover: cover.jpg
@@ -6,8 +6,8 @@ date:   2021-07-21 12:00:00
 categories: posts
 ---
 
-Introduction
-===
+## Introduction
+
 
 End-to-end marketing and business analysis projects utilizing machine learning and statistical analysis techniques using the R programming language.
 
